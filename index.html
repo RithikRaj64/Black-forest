@@ -1,67 +1,70 @@
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>foodie</title>
-	<style type="text/css">
-		ol{
-			list-style: none;
+	<title>Foodie</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<style>
+		body{
+			background-image:url("bg.jpeg");
+			background-size: cover;
 		}
-		table{
-			 border-collapse: collapse;
+		div.gallery{
+			margin: 5px;
+		        border-radius: 30px;
+		        float: left;
 		}
-
-
+		.gallery img{
+		       width:85px;
+		       height:75px;
+	        }  
 	</style>
 </head>
-<body>
-    <h1>BLACK FOREST</h1>
-<div>
-	<dl>
-		<dt><b>INGREDIENTS:</b>
-			<dt><b>CAKE:</b></dt></dt>
-
-<dd>
+<body class="main">
+    <center><img src="logo1.png" width="125" height="75"></center>
+    <h1 class="mainh">BLACK FOREST</h1>
+    <img class="mainp" id="mob" src="forest4.jpg">
+	<h3><u>INGREDIENTS</u></h3>
+	<ol>
+		<li><b>CAKE</b></li>
+	</ol>
 <ul>
-<li>9 large eggs, room temp</li>
-<li>1 cup granulated sugar</li>
-<li>1 cup all-purpose flour </li> 
-<li>1/2 cup unsweetened cocoa powder</li>
-<li>4 Tbsp (1/4 cup) unsalted butter, melted and cooled to room temp</li>
-<li>1/2 tsp vanilla extract.</li></ul></dd></dl></div>
-
-<div>
-	<dl>
-		<dt><b>FILLING:</b></dt><dd>
-<ul>
-<li>4 cups (1 lb) bing cherries, pitted, plus 12 whole cherries for decor (If not in season, see *Recipe Tips)</li>
-<li>3 Tbsp kirsch (a cherry liqueur)</li>
-<li>1/4 cup cold water</li>
+<li>eggs</li>
+<li>sugar</li>
+<li>all-purpose flour </li> 
+<li>unsweetened cocoa powder</li>
+<li>unsalted butter</li>
+<li>vanilla extract.</li>
 </ul>
-</dd>
-</div>
+<ol>
+	<li><b>FILLING</b></li>
+</ol>
+<ul>
+<li>bing cherries, pitted, plus 12 whole cherries for decor.</li>
+<li>kirsch</li>
+<li>cold water</li>
+</ul>
 
-<div>
-	<dl>
-		<dt><b>FROSTING:</b></dt><dd>
-	<ul>
-    <li>3 1/2 cups heavy whipping cream</li>
-    <li>1/3 cup Confectioners sugar</li>
-    <li>1 Tbsp kirsch (cherry liqueur)</li>
-    <li>4 oz good quality dark chocolate</li>
-    </ul></dd></dl>
-</div>
-</p>
-<p><b>CALORIES TABLE:</b></p>
-<table border="1">
+	<ol>
+		<li><b>FROSTING</b></li>
+	</ol>
+<ul>
+<li>heavy whipping cream</li>
+<li>Confectioners sugar</li>
+<li>kirsch</li>
+<li>dark chocolate</li>
+</ul>
+	
+<h3><u>Calori chart</u></h3>
+<table class="nutrition" border="1" cellpadding="5">
 	<tr>
 		<th>NUTRIENTS</th>
-		<th>Amount Per 100 grams</th>
+		<th>QUANTITY</th>
 	</tr>
 	<tr>
-		<td>Carbs</td>
-		<td>46</td>
+		<td><b>Carbs</b></td>
+		<td><b>46</b></td>
 	</tr>
 	<tr>
 		<td>Dietary Fiber</td>
@@ -72,8 +75,8 @@
 		<td>8</td>
 	</tr>
 	<tr>
-		<td>Fat</td>
-		<td>4</td>
+		<td><b>Fat</b></td>
+		<td><b>4</b></td>
 	</tr>
 	<tr>
 		<td>Saturated</td>
@@ -84,7 +87,7 @@
 		<td>0</td>
 	</tr>
 	<tr>
-		<td>Protein</td>
+		<td><b>Protein</b></td>
 		<td>18</td>
 	</tr>
 	<tr>
@@ -115,24 +118,20 @@
 		<td>Iron</td>
 		<td>15%</td>
 	</tr>
-</table><br>
-<div id="img">
-	<img src="forest1.jpg" height="200" width="200" alt="black forest">
-	<img src="forest2.jpg"  height="200" width="200" alt="black forest">
-	<img src="forest3.jpg"  height="200" width="200" alt="black forest">
-	<img src="forest4.jpg"  height="200" width="200" alt="black forest">
-</div>
-<div>
-	<dl>
-		<dt><b>Interesting Facts about the Black Forest Cake:</b></dt>
-		<ul>
+</table><br><br>
+<div class="gallery">
+	<img class="gallery img" src="forest1.jpg">
+	<img class="gallery img" src="forest2.jpg">
+	<img class="gallery img" src="forest3.jpg">
+</div><br><br><br>,br>
+	
+<div class="facts">
+	<h3>FUN FACTS</h3>
+	<ul type="circle">
 			<li>The Black Forest cake originated from Germany where it was initially called Schwarzwälder Kirschtorte, which means Black Forest Cherry Torte or Gateau in the German language.</li>
 			<li>The world’s largest Black Forest cake was made by K&D Bakery on 16th July 2006 that weighed about 3000 kgs</li>
 			<li>The cake originally became famous in Germany and in no time it became the talk of the town in entire Europe. Presently, it is the most wanted flavor of cake all over the world.</li>
-			<li>The original published written record of Black Forest cake was in the year 1934 by John Martin Erich Weber, who was a German confectioner. He mentioned it in his book ‘250 Konditorei-Spezialitäten und wie sie entstehen’, translated in English as ‘250 pastry specialties and how they originate’.</li>
-			<li>Every year, March 28 is celebrated as National Black Forest cake day. The origin of this day is not known but it is basically celebrated to promote the rich history and consumption of this delicious cake.</li>
-		</ul>
-	</dl>
+	</ul>	
 </div>
 
 </body>
